@@ -21,4 +21,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yaml-file: .github/labels.yml
           # 余計な既存ラベルを消すなら true
-          sync: false
+          sync: true
